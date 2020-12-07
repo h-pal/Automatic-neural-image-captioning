@@ -1,22 +1,15 @@
-from keras.layers import Conv2D,MaxPooling2D,Flatten,Dense, BatchNormalization, Dropout, TimeDistributed, Embedding, LSTM, Input, GRU
-from keras.models import Sequential
-from keras import datasets, metrics,optimizers
-from keras.regularizers import l2
-from keras.utils import to_categorical
-from keras.applications.vgg16 import preprocess_input,decode_predictions,VGG16
+from keras.layers import Dense, BatchNormalization,TimeDistributed, Embedding, LSTM, Input
 from keras.models import Model
 from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
-import pandas as pd
 from keras.preprocessing.text import Tokenizer
-from keras.utils import to_categorical
 from keras.preprocessing.sequence import pad_sequences
+import keras.backend as K
 import string
 import re
 import os
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot
-import keras.backend as K
 from num2words import num2words
 from keras.applications import Xception
 

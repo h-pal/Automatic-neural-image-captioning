@@ -1,4 +1,4 @@
-# Image-Captioning
+# Image-Captioner
 
 I am using an encoder-decoder architecture of Xception - LSTM model to generate caption for images. I used pretrained weights from Imagenet for Xception encoder and used pretrained Glove word embeddings. 
 
@@ -21,6 +21,10 @@ Matplotlib 3.1
 NLTK 3.4.5
 
 Re 2.2.1
+
+## Results
+
+![](Image-Captioning/test/1.jpg)
 
 ## Reference
 

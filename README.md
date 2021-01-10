@@ -1,6 +1,6 @@
 # Image-Captioner
 
-I am using an encoder-decoder architecture of Xception - LSTM model to generate caption for images. I used pretrained weights from Imagenet for Xception encoder and used pretrained Glove word embeddings. 
+I am using an inject architecture for Xception - LSTM model to generate caption for images. I used pretrained weights from ImageNet for Xception encoder and used pretrained Stanford GloVe word embeddings. 
 
 ## Data
 
@@ -24,7 +24,16 @@ Re 2.2.1
 
 ## Results
 
-![](Image-Captioning/test/1.jpg)
+![](test/1.png)
+![](test/2.png)
+![](test/3.png)
+![](test/4.png)
+![](test/5.png)
+![](test/6.png)
+![](test/7.png)
+![](test/8.png)
+![](test/9.png)
+
 
 ## Reference
 

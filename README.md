@@ -1,4 +1,4 @@
-# Image-Captioner
+# Automatic Neural Image Captioning
 
 I am using an inject architecture for Xception - LSTM model to generate caption for images. I used pretrained weights from ImageNet for Xception encoder and used pretrained Stanford GloVe word embeddings. 
 
